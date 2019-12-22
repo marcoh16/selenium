@@ -1,4 +1,4 @@
-package com.class01;
+package com.class1;
 
 public class NavigationCommands {
 
