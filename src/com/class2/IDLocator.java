@@ -27,7 +27,10 @@ public class IDLocator {
 		Thread.sleep(2000);
 		//way to find element by linkText
 		driver.findElement(By.linkText("Logout")).click();
-		
+		//input[@type='hidden' and @name='actionID']
+		//input[@type='hidden' or @name='actionID']
+		//h1[contains(text(),'Syntax');
+		//input[@name='actionID']/following::input[3]
 		driver.close();
 	
 	}
